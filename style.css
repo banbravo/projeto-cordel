@@ -34,7 +34,7 @@ header {
 header > h1 {
     padding-top: 50px;
     font-family: var(--fonte2);
-    font-size: 8vw;
+    font-size: 100px;
 }
 header > p {
     padding-bottom: 50px;
