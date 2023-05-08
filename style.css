@@ -1,0 +1,103 @@
+@charset "UTF-8"
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lily+Script+One&family=Unbounded:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100&display=swap');
+
+:root {
+    --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte2: 'Unbounded', 'cursive';
+    --fonte3: 'Righteous', 'cursive';
+    --fonte4: 'Heebo', sans-serif;
+}
+
+* {
+    margin: 0px;
+    padding: 0%;
+
+}
+
+html, body {
+    min-height: 100vh;
+    background-color: #f4f7c7;
+    font-family: var(--fonte1)
+}
+
+header {
+    background-color: #671a00;
+    color: #ffffff;
+    text-align: center;
+    
+}
+header > h1 {
+    padding-top: 50px;
+    font-family: var(--fonte2);
+    font-size: 8vw;
+}
+header > p {
+    padding-bottom: 50px;
+}
+
+header a, footer a {
+    color: #EBFC28;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+header a:hover, footer a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding-top: 10%;
+    padding-bottom: 10%;
+    line-height: 2em;
+    padding-left: 50px;
+    font-family: var(--fonte3);
+    font-size: 3.4vw;
+}
+
+section > p {
+    padding: 2em;
+}
+
+section.normal {
+    background-color: #9c0000;
+    color: #ffffff;
+}
+
+section.imagem {
+    background-color: #93f781;
+    color: #ffffff;
+    box-shadow: inset 6px 6px 13px 0px #0000009b;
+    background-attachment: fixed;
+}
+
+section.imagem > p {
+    display: inline-block;
+    padding: 10px;
+    background-color: #00000099;
+    text-shadow: 1px 1px 0px black;
+    
+}
+
+section#img01 {
+    background-image: url(imagens/03.jpg);
+    background-size: cover;
+
+}
+section#img02 {
+    background-image: url(imagens/01.png);
+    background-position: center center;
+    background-size: cover;
+    
+}
+
+footer {
+    background-color: #671a00;
+    color: #ffffff;
+    text-align: center;
+    padding: 7px;
+}
